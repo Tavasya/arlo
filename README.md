@@ -26,3 +26,12 @@ Educational Tool: Use Arlo as a resource for school projects or to satisfy your 
 Travel Companion: Navigate the city with ease, finding the best spots for dining, entertainment, and relaxation.
 How to Use Arlo
 Simply interact with Arlo through this chat interface. Ask questions, share images, or express your interests, and Arlo will provide tailored responses to enhance your San Francisco experience.
+
+Video Demo:
+https://youtu.be/XesjPoWyTEc
+
+Developed by: 
+Tavasya Ganpati
+Sarah Lyn
+Denis Sakanovic
+Hayk Harutyunyan
