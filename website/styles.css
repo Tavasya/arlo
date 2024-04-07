@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Play", sans-serif;
+}
+
+.nav {
+    left: 50%;
+}
+
+body {
+    min-height: 100vh;
+    background: #101010;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 2%;
+    font-size: 2rem;
+    color: white;
+    font-weight: 600;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Play';
+    color: white;
+    font-size: medium;
+}
+h1 span {
+    position: relative;
+    color: #5D3FD3;
+}
+
+h1 span::before {
+    content: "";
+    position: absolute;
+    right: -8px;
+    top: 50%;
+    height: 30px;
+    width: 2px;
+    background: #5D3FD3;
+    transform: translateY(-50%);
+    animation: blink 0.7s infinite;
+}
+@keyframes blink {
+    50% { opacity: 0;}
+}
+
+.floating {  
+    position: fixed;
+    bottom: 0;
+    transform: translateX(-50%); /* Adjust to center the image */
+    animation-name: floating;
+    animation-duration: 3s; /* Adjust as needed */
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes floating {
+    0% { transform: translateY(100vh); }
+    50% { transform: translateY(2vh); } /* Moves the image up by half of the viewport height */
+    100% { transform: translateY(2vh); } /* Moves the image up to the top of the viewport */
+    to { transform: translateY(10vh); }
+}
+
+
+.Arlo {
+    text-align: center;
+    margin-top: 2%;
+    font-size: 2rem;
+    color: white;
+    font-weight: 600;
+    font-family: 'Play';
+}
+.head2 {
+    text-align: center;
+    font-family: 'Play';
+    color: white;
+    font-size: large;
+}
+h3 {
+    text-align: center;
+    font-family: 'Play';
+    color: white;
+    font-size: large;
+}
+.head3 {
+    text-align: center;
+    font-family: 'Play';
+    color: white;
+    font-size: xx-large;
+    border: 10px;
+}
+.chatimg {
+    width: 20%;
+    height: 20%;
+    margin-left: 60%;
+}
+button {
+    font-family: 'VT323';
+    margin-top: 1%;
+    margin-left: 42%;
+    width: 16%;
+    color: white;
+    font-size: xx-large;
+    border-radius: 40px;
+    background-color: #5D3FD3;
+    border-color: #5D3FD3;
+}
+h4 {
+    font-family: 'Play';
+    font-size: 46px;
+    text-align: center;
+    color: white;
+}
+.video-wrapper {
+    display: flex; 
+    justify-content: space-around; 
+    margin-top: 30%; 
+    margin-bottom: 10%;
+}
+.video-container {
+    width: 600px;
+    height: 400px;
+    overflow: hidden;
+    border: 2px solid #333;
+    border-radius: 10px;
+}
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;  
+}
+.demo {
+    font-family: 'VT323';
+    margin-top: 5%;
+    font-size: xx-large;
+    text-decoration: none;
+}
